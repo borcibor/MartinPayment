@@ -1,5 +1,2 @@
-# projectx
-
-9.10.2019
-  
-  -dodal gumba
+Martin payment
+https://borcibor.github.io/MartinPayment/
