@@ -1,0 +1,126 @@
+h1, h2, h3 {font-family: 'Kanit', sans-serif; font-size: 50px;}
+
+p, h4, h5, h6 {font-family: 'Raleway', sans-serif; font-size: 1rem}
+
+.login a {
+  background-color:#55F277;
+  border-radius:28px;
+  border:1px solid #55F277;
+  display:inline-block;
+  cursor:pointer;
+  color:#55F277;
+  font-family:Arial;
+  font-size:17px;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;}
+
+.login:hover {
+  background-color:#55F277;}
+
+.login:active {
+  position:relative;
+  top:1px;}
+
+nav > a > button {border-radius: 25px; border: 1px solid #55F277; background-color: white; }
+nav > a > button:hover {background-color:#55F277;}
+
+.intro  button {border-radius: 7px; border: 1px solid #55F277; background-color: #55F277;}
+.intro  button:hover {background-color: #55F277; border-color: aliceblue }
+
+
+
+.single-special {
+  border: 1px solid #eff2f6;
+  padding: 40px;
+  border-radius: 40px 40px 40px 0px;
+  -webkit-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+  margin-bottom: 30px;
+}
+
+.single-special:hover {
+  -webkit-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);}
+
+
+/*LOGIN SCREEN*/
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/*ADMIN SCREEN*/
+
+.sidenav {
+  margin-top: 50px;
+  font-family: 'Raleway', sans-serif; 
+  font-size: 1rem;
+  font-weight: 100;
+  z-index: 1;
+  text-decoration: none;
+  overflow-x: hidden;}
+
+.sidenav a, .dropdown-btn {
+  padding: 15px 16px;
+  text-decoration: none;
+  color: #000;
+  display: block;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+background-color: white;}
+
+.sidenav a:hover {
+  color: #333; 
+  font-weight: 900; 
+  text-decoration: none;}
+
+.sidenav a:active {
+border-left-width: 8px;
+  border-color: #55F277;
+  border-left-style: solid;}
+
+
+.dropdown-container {
+  display: block;
+  padding-left: 20px;}
+
+.total {
+  background-color: white;
+  border: 1px solid #55f277;
+  border-radius: 10px;
+  height:100%;
+  margin-right: 10px}
+
+.allTransactions {
+  background-color: white;
+  border: 1px solid #55f277;
+  border-radius: 10px;}
