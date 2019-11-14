@@ -1,3 +1,3 @@
 Martin payment
 
-borcibor.github.io/Martinpayment
+https://borcibor.github.io/MartinPayment/
