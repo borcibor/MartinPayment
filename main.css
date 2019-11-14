@@ -80,7 +80,7 @@ nav > a > button:hover {background-color:#55F277;}
 /*ADMIN SCREEN*/
 
 .sidenav {
-  margin-top: 50px;
+  margin-top: 30px;
   font-family: 'Raleway', sans-serif; 
   font-size: 1rem;
   font-weight: 100;
@@ -117,8 +117,7 @@ border-left-width: 8px;
   background-color: white;
   border: 1px solid #55f277;
   border-radius: 10px;
-  height:100%;
-  margin-right: 10px}
+  height:100%;}
 
 .allTransactions {
   background-color: white;
