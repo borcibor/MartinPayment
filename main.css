@@ -123,3 +123,23 @@ border-left-width: 8px;
   background-color: white;
   border: 1px solid #55f277;
   border-radius: 10px;}
+
+
+/*TERMINAL*/
+.newTransaction {
+  font-family: 'Kanit', sans-serif;
+font-size: 35px;
+color: white;
+background-color: #55f277;
+z-index: 100;
+position: fixed;  
+bottom: 20px;
+right: 20px;
+width: 60px;
+height: 60px;
+border-radius: 60px;
+border-width: 0;}
+
+.hideMe {
+  display: none;
+}
