@@ -103,15 +103,10 @@ background-color: white;}
   font-weight: 900; 
   text-decoration: none;}
 
-.sidenav a:active {
-border-left-width: 8px;
-  border-color: #55F277;
-  border-left-style: solid;}
-
 
 .dropdown-container {
   display: block;
-  padding-left: 20px;}
+  margin-left: 20px;}
 
 .total {
   background-color: white;
