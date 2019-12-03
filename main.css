@@ -3,13 +3,11 @@ h1, h2, h3 {font-family: 'Kanit', sans-serif; font-size: 50px;}
 p, h4, h5, h6 {font-family: 'Raleway', sans-serif; font-size: 1rem}
 
 .login a {
-  background-color:#55F277;
+  background-color: white;
   border-radius:28px;
   border:1px solid #55F277;
-  display:inline-block;
   cursor:pointer;
   color:#55F277;
-  font-family:Arial;
   font-size:17px;
   padding:16px 31px;
   text-decoration:none;
@@ -22,12 +20,10 @@ p, h4, h5, h6 {font-family: 'Raleway', sans-serif; font-size: 1rem}
   position:relative;
   top:1px;}
 
-nav > a > button {border-radius: 25px; border: 1px solid #55F277; background-color: white; }
-nav > a > button:hover {background-color:#55F277;}
-
-.intro  button {border-radius: 7px; border: 1px solid #55F277; background-color: #55F277;}
-.intro  button:hover {background-color: #55F277; border-color: aliceblue }
-
+#register {border-radius: 25px; border: 1px solid #55F277; background-color:#55F277; color: black;}
+#logIn {border-radius: 30px; border:1px solid #55F277; color: black;}
+#register:hover {border-color: aliceblue}
+#logIn:hover {border-color: darkgray}
 
 
 .single-special {
@@ -47,35 +43,37 @@ nav > a > button:hover {background-color:#55F277;}
 
 /*LOGIN SCREEN*/
 
+
 .form-signin {
   width: 100%;
   max-width: 330px;
   padding: 15px;
-  margin: auto;
-}
+  margin: auto;}
+
+
 .form-signin .checkbox {
-  font-weight: 400;
-}
+  font-weight: 400;}
+
 .form-signin .form-control {
   position: relative;
   box-sizing: border-box;
   height: auto;
   padding: 10px;
-  font-size: 16px;
-}
+  font-size: 16px;}
+
 .form-signin .form-control:focus {
-  z-index: 2;
-}
+  z-index: 2;}
+
 .form-signin input[type="email"] {
   margin-bottom: -1px;
   border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
+  border-bottom-left-radius: 0;}
+
 .form-signin input[type="password"] {
   margin-bottom: 10px;
   border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
+  border-top-right-radius: 0;}
+
 
 /*ADMIN SCREEN*/
 
