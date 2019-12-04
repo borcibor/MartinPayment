@@ -19,19 +19,32 @@
     </nav>
 
     <form class="form-signin">
+      <h1 class="h3 mb-3 font-weight-normal">Register</h1>
+      
+      <span class="small text-muted">*6-32 alphanumeric characters and ^€@!,.-_+*'"</span>
+      <label for="inputUsername" class="sr-only">Username</label>
+      <input type="text" id="inputUsername" class="form-control mb-2" placeholder="Username" required autofocus>
 
-      <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+     <span class="small text-muted">*Please enter a valid address</span>
       <label for="inputEmail" class="sr-only">Email address</label>
-      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+      <input type="email" id="inputEmail" class="form-control mb-2" placeholder="Email address" required>
+
+    
       <label for="inputPassword" class="sr-only">Password</label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+      <input type="password" id="inputPassword" class="mb-2 form-control" placeholder="Password" required>
+
+     <span class="small text-muted">*Please retype the password again</span>
+      <label for="confirmPassword" class="sr-only">Password</label>
+      <input type="password" id="confirmPassword" class="mb-2 form-control" placeholder="Confirm password" required>
+
       <div class="checkbox mb-3">
         <label>
           <input type="checkbox" value="remember-me"> Remember me
         </label>
-        <a href="register.html" class="float-right">Register?</a>
+        <a href="signup.html" class="float-right">Sign in?</a>
       </div>
-      <button class="btn btn-lg btn-block" id="register" type="submit" data-toggle="modal" data-target="#fa">Sign in</button>
+
+      <button class="btn btn-lg btn-block" id="register" type="submit" data-toggle="modal" data-target="#fa">Register</button>
       <p class="mt-5 mb-3 small text-muted">&copy; Martin payment 2019
     </form>
 
