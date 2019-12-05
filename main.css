@@ -80,13 +80,15 @@ p, span {font-family: 'Raleway', sans-serif;}
 /*ADMIN SCREEN*/
 
 .sidenav {
-  margin-top: 30px;
+  margin-top: 25px;
+  margin-left: 10px;
   font-family: 'Raleway', sans-serif; 
   font-size: 1rem;
   font-weight: 100;
   z-index: 1;
   text-decoration: none;
-  overflow-x: hidden;}
+  overflow-x: hidden;
+  width: 150px;}
 
 .sidenav a, .dropdown-btn {
   padding: 15px 16px;
