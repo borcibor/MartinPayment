@@ -2,7 +2,7 @@
 
 h1, h2, h3 {font-family: 'Kanit', sans-serif;}
 
-p, span {font-family: 'Raleway', sans-serif;}
+body, p, span, table {font-family: 'Raleway', sans-serif;}
 
 .login a {
   background-color: white;
