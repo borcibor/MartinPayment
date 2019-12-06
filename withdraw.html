@@ -20,7 +20,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-       <h2>ime podjetja</h2>
+        <h2>ime podjetja</h2>
         <ul class="navbar-nav">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="admin.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -62,39 +62,46 @@
           <a href="#signOut" data-toggle="modal" data-target="#signOut">Sign out</a> 
         </div>
 
-<!-- Modal -->
-<div class="modal fade" id="signOut" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Sign out?</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-        <button type="button" class="btn btn-primary">Sign out</button>
-      </div>
-    </div>
-  </div>
-</div>
-        
+        <!-- Modal -->
+        <div class="modal fade" id="signOut" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Sign out?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary">Sign out</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="AdminMain col-lg-10">
           <div class="row">
+           
             <!--leva stran (total)-->
             <div class="total col-lg-9 m-4 pt-3">
-              <h3>Withdraw</h3>
-              <div class="container">
-                <div class="row justify-content-between">
-                  <h5>Total</h5>
-                  <p class="desno pr-2">6000€</p>
-                  <a class="">Withdraw</a>
+              <h3 class="">Withdraw</h3>
+
+              <h5 class="my-3">Available funds - 6000€</h5>
+
+              <div class="mt-1 input-group mb-3">
+                <input type="text" class="form-control" placeholder="Your ETH address" aria-label="ETH address" aria-describedby="ETHaddress">
+
+
+                <input type="number" class="form-control" placeholder="Withdraw amount" aria-label="withdrawAmount" aria-describedby="withdrawAmount">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button">Withdraw</button>
                 </div>
               </div>
+
             </div>
           </div>
         </div>
