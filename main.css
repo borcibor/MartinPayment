@@ -125,11 +125,6 @@ background-color: white;}
   overflow-y: auto;
   }
 
-#allTransactions_h3 {
-  position: fixed;
-  background-color: white;
-  width: 80%;
-}
 
 /*
 .allTransactions::-webkit-scrollbar-track
