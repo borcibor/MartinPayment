@@ -84,9 +84,22 @@
 
         <div class="container-fluid col">
           <div class="row">
-            <div class="total col pt-3 m-4">
-              <h3>Total</h3>
+           <div class="total col-sm pt-3 m-4">
+               <h3>Total amount</h3>
+               <h1 class="my-3">60000€</h1>
+               <button class="btn btn-light mb-2 float-right" href="withdraw.html" type="button">Withdraw</button>
+            </div>
+            <div class="total col-sm-8 pt-3 m-4">
+              <h3>Wallet</h3>
               <table class="table table-borderless">
+                 <thead>
+                  <tr>
+                    <th scope="col">Currency</th>
+                    <th scope="col">Percentage</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">Amount in fiat</th>
+                  </tr>
+                </thead>
                 <tbody>
                   <tr>
                     <td>Ethereum</td>
@@ -105,10 +118,12 @@
                     <td>(unimplemented)%</td>
                     <td>unimplemented</td>
                     <td>unimplemented</td>
-                  </tr>
+                  </tr> 
+                 
                 </tbody>
               </table>
             </div>
+            
           </div>
 
           <div class="row">
@@ -122,6 +137,7 @@
                     <th scope="col">Terminal</th>
                     <th scope="col">Amount</th>
                   </tr>
+                </thead>
                 <tbody>
                   <tr>
                     <td>Nov<br>4</td>
