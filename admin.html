@@ -84,15 +84,19 @@
 
         <div class="container-fluid col">
           <div class="row">
-           <div class="total col-sm pt-3 m-4">
-               <h3>Total amount</h3>
-               <h1 class="my-3">60000€</h1>
-               <button class="btn btn-light mb-2 float-right" href="withdraw.html" type="button">Withdraw</button>
+            <div class="total col-sm pt-3 m-4">
+              <h3>Total amount</h3>
+              <h1 class="my-5">60000€</h1>
+              <button class="btn btn-light mb-2 float-right ml-2" href="withdraw.html" type="button">Withdraw</button>
+              <select name="currencies" class="btn btn-light float-right">
+                <option value="Euro - EUR">EUR - €</option> 
+                <option value="Dollars - USD">USD - $</option>
+              </select>
             </div>
             <div class="total col-sm-8 pt-3 m-4">
               <h3>Wallet</h3>
               <table class="table table-borderless">
-                 <thead>
+                <thead>
                   <tr>
                     <th scope="col">Currency</th>
                     <th scope="col">Percentage</th>
@@ -119,11 +123,11 @@
                     <td>unimplemented</td>
                     <td>unimplemented</td>
                   </tr> 
-                 
+
                 </tbody>
               </table>
             </div>
-            
+
           </div>
 
           <div class="row">
