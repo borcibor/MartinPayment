@@ -14,10 +14,10 @@
       <a class="navbar-brand" href="index.html">
         <img src="Assets/Projectx_logo.svg" width="50" height="50" class="d-inline-block" alt=""> Martin payment</a>
       <h2 class="d-none d-lg-block">ime podjetja</h2>
-      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+     
+       <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <h2>ime podjetja</h2>
         <ul class="navbar-nav">
@@ -34,7 +34,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/withdraw.html">Withdraw</a>
+            <a class="nav-link" href="withdraw.html">Withdraw</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="account.html">Account</a>
@@ -42,11 +42,10 @@
           <li class="nav-item">
             <a class="nav-link" data-toggle="modal" data-target="#myModal">Signout</a>
           </li>
-
         </ul>
       </div>
+      
     </nav>
-
     <div class="container-fluid">
       <div class="row">
         <div class="sidenav d-none d-lg-block mr-3">
@@ -84,7 +83,7 @@
 
         <div class="container-fluid col">
           <div class="row">
-            <div class="total col-sm pt-3 m-4">
+            <div class="total col-lg pt-3 m-4">
               <h3>Total amount</h3>
               <h1 class="my-5">60000€</h1>
               <button class="btn btn-light mb-2 float-right ml-2" href="withdraw.html" type="button">Withdraw</button>
@@ -93,40 +92,42 @@
                 <option value="Dollars - USD">USD - $</option>
               </select>
             </div>
-            <div class="total col-sm-8 pt-3 m-4">
+            <section id="no-more-tables" class="total col-lg-8 pt-3 m-4">
               <h3>Wallet</h3>
               <table class="table table-borderless">
-                <thead>
-                  <tr>
-                    <th scope="col">Currency</th>
-                    <th scope="col">Percentage</th>
-                    <th scope="col">Amount</th>
-                    <th scope="col">Amount in fiat</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Ethereum</td>
-                    <td>unimplemented%</td>
-                    <td>unimplemented ETH</td>
-                    <td>unimplemented €</td>
-                  </tr>
-                  <tr>
-                    <td>Marttin coin</td>
-                    <td>(unimplemented)%</td>
-                    <td>value ETH</td>
-                    <td>unimplemented €</td>
-                  </tr>
-                  <tr>
-                    <td>Quant</td>
-                    <td>(unimplemented)%</td>
-                    <td>unimplemented</td>
-                    <td>unimplemented</td>
-                  </tr> 
-
-                </tbody>
-              </table>
-            </div>
+	<thead>
+		<tr>
+			<th>Currency</th>
+			<th>Ratio</th>
+			<th class="numeric">Amount</th>
+			<th class="numeric">Amount in fiat</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td data-title="Currency">Ethereum</td>
+			<td data-title="Ratio">77%</td>
+			<td data-title="Amount" class="numeric">$1.38</td>
+			<td data-title="Amount in fiat" class="numeric">-0.01</td>
+	
+		</tr>
+		<tr>
+			<td data-title="Currency">MarttinCoin</td>
+			<td data-title="Ratio">13%</td>
+			<td data-title="Amount" class="numeric">$1.38</td>
+			<td data-title="Amount in fiat" class="numeric">-0.01</td>
+		
+		</tr>
+		<tr>
+			<td data-title="Currency">Quant</td>
+			<td data-title="Ratio">2%</td>
+			<td data-title="Amount" class="numeric">$1.38</td>
+			<td data-title="Amount in fiat" class="numeric">-0.01</td>
+		</tr>
+	</tbody>
+</table>
+           
+            </section>
 
           </div>
 

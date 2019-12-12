@@ -11,7 +11,6 @@
   </head>
   <body>
 
-
     <nav class="navbar navbar-light">
       <a class="navbar-brand" href="index.html">
         <img src="Assets/Projectx_logo.svg" width="50" height="50" class="d-inline-block" alt=""> Martin payment</a>
@@ -89,19 +88,23 @@
             <!--leva stran (total)-->
             <div class="total col-lg m-4 pt-3">
               <h3 class="">Withdraw</h3>
-              <h3 class="mb-5">Available funds - 6000€</h3>
-              <h5 class="my-2">Withdraw now</h5>
+              <h3 class="mb-5">Available funds -</h3>
+              <h1 class="mb-5">6000€</h1>
+              <h4 class="mb-2">Withdraw now</h4>
               <div class="mt-1 input-group mb-3">
-                <input type="text" class="form-control" placeholder="Your ETH address" aria-label="ETH address" aria-describedby="ETHaddress">
+                <input type="text" class="form-control mb-1" placeholder="Your ETH address" aria-label="ETH address" aria-describedby="ETHaddress">
+                <div class="input-group ">
                 <input type="number" class="form-control" placeholder="Withdraw amount" aria-label="withdrawAmount" aria-describedby="withdrawAmount">
                 <div class="input-group-append">
-                  <button class="btn btn-outline-secondary" type="button">Withdraw</button>
+                 
+                  <button class="btn btn-secondary" type="button">Withdraw</button>
                 </div>
               </div> 
-              <h5 class="mb-2 mt-5">Withdraw automatically</h5>
-              <div class="row mb-3">
-                <div class="col-sm">
-                <h5>On date</h5>
+              </div> 
+              <h4 class="mb-2 mt-5">Set automatic withdraw</h4>
+              <div class="row mt-3">
+                <div class="col mb-5">
+                <h6>On date</h6>
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="checkbox" value="" id="date">
                   <label class="form-check-label" for="date">
@@ -116,19 +119,15 @@
                 </div>  
                 </div>
                 <div class="col-sm">
-                <h5>On Amount</h5>
-                <div class="form-check form-check-inline col-sm">
+                <h6 class="">On Amount</h6>
+                <div class="form-check form-check-inline mb-3 mr-0">
                   <input class="form-check-input" type="checkbox" value="" id="amount">
-                  <label class="form-check-label" for="amount">
-                    Enable
-                  </label>
+                  <label class="form-check-label" for="amount">Enable</label>
                   <div class="input-group ml-3">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">€</span>
-                    </div>
                     <input type="number" class="form-control" aria-label="Amount">
-                    <div class="input-group-append">
-                    </div>
+                       <div class="input-group-append">
+                  <button class="btn btn-secondary" type="button">Set</button>
+                </div>
                   </div>
                 </div>
                 </div>
